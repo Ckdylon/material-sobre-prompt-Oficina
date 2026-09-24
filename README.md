@@ -6,7 +6,7 @@ Material prático e didático desenvolvido para a oficina de **Uso de IA, Engenh
 
 ## Acesso Rápido
 
-- **Página Online:** [Acessar Guia do Bom Prompt](https://ckdylon.github.io/NOME_DO_REPOSITORIO/)
+- **Página Online:** [Acessar Guia do Bom Prompt]([https://ckdylon.github.io/NOME_DO_REPOSITORIO/](https://ckdylon.github.io/material-sobre-prompt-Oficina/))
 - **Versão para Impressão:** A página conta com folhas de estilo dedicadas (`@media print`), permitindo salvar diretamente em PDF ou imprimir como ficha de atividade física formatada em A4.
 
 ---
