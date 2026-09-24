@@ -1,4 +1,4 @@
-#Guia do Bom Prompt
+# Guia do Bom Prompt
 
 Material prático e didático desenvolvido para a oficina de **Uso de IA, Engenharia de Prompt e Boas Práticas Éticas**, ministrada durante a **SEMAC 2026** na **Faculdade Regional de Riachão do Jacuípe (FARJ)**.
 
