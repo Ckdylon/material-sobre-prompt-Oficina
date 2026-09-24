@@ -39,6 +39,10 @@
     font-size:1.9rem; margin:0 0 .3rem; line-height:1.2;
   }
   .sub{color:var(--muted); font-size:.95rem; margin:0;}
+  .author-badge{
+    display:inline-block; margin-top:.5rem; font-size:.85rem; font-weight:600;
+    color:var(--primary); background:var(--card); padding:.25rem .7rem; border-radius:6px;
+  }
   h2{
     font-family:Cambria, "Times New Roman", serif; color:var(--accent);
     font-size:1.3rem; margin:2.2rem 0 .9rem; border-bottom:2px solid var(--line); padding-bottom:.4rem;
@@ -79,7 +83,12 @@
     display:block; font-size:.82rem; font-weight:700; color:var(--secondary); margin-bottom:.25rem;
   }
   .practice .line{border-bottom:1px solid var(--line); height:1.3rem;}
-  footer{margin-top:2.2rem; font-size:.8rem; color:var(--muted); text-align:center;}
+  footer{
+    margin-top:2.6rem; padding-top:1.2rem; border-top:1px solid var(--line);
+    font-size:.85rem; color:var(--muted); text-align:center; line-height:1.6;
+  }
+  footer a{color:var(--primary); text-decoration:none; font-weight:600;}
+  footer a:hover{text-decoration:underline;}
   @media print{
     body{background:#fff; color:#000;}
     .wrap{max-width:100%; padding:0.4in;}
@@ -95,6 +104,7 @@
     <p class="kicker">Oficina Prática · SEMAC 2026 · FARJ</p>
     <h1>Guia do Bom Prompt</h1>
     <p class="sub">Material de apoio — Uso de IA, Engenharia de Prompt e Boas Práticas Éticas</p>
+    <div class="author-badge">Facilitador / Elaboração: Caike Dylon Lima de Matos</div>
   </header>
 
   <h2>Os 6 elementos de um bom prompt</h2>
@@ -165,7 +175,10 @@
     <div class="field"><label>Exemplo</label><div class="line"></div></div>
   </div>
 
-  <footer>Oficina Prática — SEMAC 2026 · FARJ, Riachão do Jacuípe/BA · 24 de setembro de 2026</footer>
+  <footer>
+    <p>Material desenvolvido por <strong>Caike Dylon Lima de Matos</strong> (<a href="https://github.com/SEU_USUARIO" target="_blank" rel="noopener">www.linkedin.com/in/caikedylon</a>)</p>
+    <p>Oficina Prática — SEMAC 2026 · FARJ, Riachão do Jacuípe/BA · 24 de setembro de 2026</p>
+  </footer>
 </div>
 </body>
 </html>
